@@ -79,6 +79,8 @@
   background-color: rgb(206, 134, 0);
 }
 
+/* MAIN BODY */
+
 /* FOOTER */
 
 .footer-bar {
@@ -92,19 +94,12 @@
 }
 
 .footer-wrapper {
-  flex: 1;
+  /* flex: 1; */
   gap: 10px;
 }
 
-.logo-foo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-foo-title {
-  color: gray;
-  text-decoration: none;
+.description {
+  width: 250px;
 }
 
 .description-foo {
