@@ -1,19 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   list-style: none;
   font-family: "Mulish", sans-serif;
 }
 
 /* HEADER */
+header {
+  position: sticky;
+  top: 0;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.326);
+  /* z-index: 100; */
+}
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 22px 10px 22px;
   flex-grow: 1;
-  background-color: rgba(0, 0, 0, 0.326);
 }
 
 .nav-wrapper .menu-wrapper {
@@ -80,15 +85,128 @@
 }
 
 /* MAIN BODY */
+body {
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+.home-one {
+  display: flex;
+  height: 900px;
+  margin-top: -76px;
+}
+
+.home-box {
+  display: flex;
+  padding: 0 100px 0 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  color: white;
+}
+
+.title-one-h1 {
+  font-size: 35pt;
+}
+
+.text-one {
+  font-weight: 100;
+}
+
+.start-button {
+  border: none;
+  background-color: orange;
+  padding: 13px 25px;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  background-color: rgb(206, 134, 0);
+}
+
+.one-numbers {
+  display: flex;
+}
+
+.staff-h1,
+.stores-h1,
+.customer-h1 {
+  color: orange;
+  font-size: 35pt;
+  /* margin-right: 25px; */
+}
+
+.staff {
+  padding: 0 25px 0 0;
+  border-right: 1px solid white;
+}
+
+.customer {
+  padding: 0 0 0 25px;
+  border-left: 1px solid white;
+}
+
+.stores {
+  padding: 0 25px 0 25px;
+}
+
+.home-two {
+  display: flex;
+  height: 900px;
+}
+
+#left-home {
+  background: url("/assets/img/Rectangle\ 286.jpg");
+  width: 50%;
+  position: inherit;
+  left: 0px;
+  background-size: cover;
+  height: 900px;
+}
+
+#right-home {
+  background: url("/assets/img/Rectangle\ 287.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  position: inherit;
+  right: 0px;
+  background-size: cover;
+  height: 900px;
+}
+
+#left-welcome {
+  background: white;
+  width: 50%;
+  position: inherit;
+  left: 0px;
+  background-size: cover;
+  height: 900px;
+}
+
+#right-welcome {
+  background: url("/assets/img/Rectangle\ 291.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  position: inherit;
+  right: 0px;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
 
 /* FOOTER */
+
+footer {
+  position: relative;
+}
 
 .footer-bar {
   background-color: #f5f6f8;
   height: 280px;
   padding: 25px 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
   font-size: 10pt;
 }
