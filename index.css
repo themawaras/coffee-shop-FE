@@ -156,6 +156,38 @@ body {
   height: 900px;
 }
 
+.welcome-box {
+  display: flex;
+  padding: 0 100px 0 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.two-h1 {
+  font-size: 35pt;
+  font-weight: 900;
+  padding-left: 25px;
+  /* border-style: */
+  border-left: 5px solid orange;
+}
+
+.h1-brown {
+  color: rgb(142, 100, 71);
+  font-weight: 900;
+}
+
+.desc-item {
+  display: flex;
+  padding: 20px 0;
+}
+
+.check-bullet {
+  margin-right: 10px;
+  align-content: center;
+}
+
 #left-home {
   background: url("/assets/img/Rectangle\ 286.jpg");
   width: 50%;
