@@ -15,22 +15,10 @@ a {
   text-decoration: none;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
-#email-alert,
-#password-alert,
-#phone-alert {
-  padding-left: 1%;
-  color: red;
-  font-size: 16px;
-}
-
-/* picture */
 .side-pic {
-  width: 100%;
-  height: 1100px;
+  position: inherit;
+  left: 0px;
+  background-size: cover;
 }
 
 .coffee {
@@ -42,7 +30,6 @@ button:hover {
   width: 27px;
   height: 28px;
 }
-/* picture */
 
 main {
   display: flex;
@@ -51,12 +38,11 @@ main {
 
 aside {
   flex: 1;
-  margin-right: 3.9%;
 }
 
 .right-side {
-  flex: 1;
-  margin-right: 8.2%;
+  flex: 2;
+  padding: 0 90px 0 90px;
 }
 
 .head-right-side {
@@ -96,6 +82,7 @@ aside {
 
 .form {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -103,42 +90,40 @@ aside {
 form {
   font-size: 20px;
   color: #4f5665;
-  padding-bottom: 50px;
+  width: 100%;
 }
 
 input {
   display: flex;
-  margin: 13px 0 10px auto;
-  width: 505px;
-  height: 75px;
-  padding: 35px;
-  font-size: 20px;
-  font-weight: 400;
-  border-radius: 20px;
-  border: 1px solid #4f5665;
-  background-color: white;
+  margin: 13px 0 10px 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 0 15px 0 15px;
 }
 
-.btn-sign-up {
+.btn-register {
   display: flex;
+  padding: 10px 0 10px 0;
   justify-content: center;
   align-items: center;
   margin: 10px 0 0 auto;
-  width: 505px;
-  height: 75px;
+  width: 100%;
+  height: 50px;
   font-size: 20px;
   color: #6a4029;
-  background-color: #ff8907;
+  background-color: orange;
   border: none;
-  border-radius: 20px;
-  /* box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4); */
+  border-radius: 10px;
 }
 
 .btn-social-media {
-  width: 250px;
-  height: 75px;
+  width: 330px;
+  height: 50px;
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(229, 229, 229);
   background-color: white;
   align-self: center;
   justify-self: center;
