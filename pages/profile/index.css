@@ -8,7 +8,12 @@
 
 /* HEADER */
 header {
-  position: sticky;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.326);
+  z-index: 2;
 }
 
 .nav-wrapper {
@@ -83,6 +88,87 @@ header {
 }
 
 /* MAIN BODY */
+
+.h1-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.profile-page {
+  padding: 0 150px 0 150px;
+  height: 720px;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+
+.profile-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-detail {
+  border: 1px solid rgb(229, 229, 229);
+  padding: 30px;
+  flex: 1;
+  justify-items: center;
+  align-items: center;
+  align-self: flex-start;
+  gap: 20px;
+}
+
+.profile {
+  padding: 5px 0 5px 0;
+}
+
+.profile-forms {
+  border: 1px solid rgb(229, 229, 229);
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  height: 650px;
+  width: 100%;
+  flex: 3;
+}
+
+.user-profile {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.type-form {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid rgb(229, 229, 229);
+  width: 100%;
+}
+
+.input {
+  font-weight: bolder;
+}
+
+button {
+  background-color: orange;
+  width: 100%;
+  height: 40px;
+  border-width: 0;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  height: 50px;
+}
+
+.submit-btn:hover {
+  background-color: rgb(206, 134, 0);
+}
+
+button.profile:hover {
+  background-color: rgb(206, 134, 0);
+}
 
 /* FOOTER */
 
