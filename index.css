@@ -7,11 +7,12 @@
 
 /* HEADER */
 header {
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
   height: 76px;
   background-color: rgba(0, 0, 0, 0.326);
-  /* z-index: 100; */
+  z-index: 2;
 }
 
 .nav-wrapper {
@@ -220,6 +221,125 @@ body {
   background: url("/assets/img/Rectangle\ 291.jpg");
   background-repeat: no-repeat;
   width: 50%;
+  position: inherit;
+  right: 0px;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.home-three {
+  height: 700px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.three-h1,
+.visit {
+  font-size: 35pt;
+  font-weight: 900;
+  /* border-style: */
+}
+
+.line {
+  width: 60px;
+  border-bottom: 8px solid orange;
+}
+
+.three-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 300px;
+  padding: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  /* position: relative; */
+}
+
+.cards-image {
+  justify-self: center;
+  align-self: center;
+}
+
+.cards .cards-desc {
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  align-self: center;
+  width: 240px;
+  background-color: white;
+  position: relative;
+  top: -40px;
+}
+
+.card-title,
+.card-detail,
+.price,
+.card-button {
+  margin: 10px 0 10px 0;
+}
+
+.h1-card-title {
+  font-weight: 900;
+}
+
+.h1-price {
+  font-weight: 900;
+  color: orange;
+}
+
+.card-button {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buy-btn {
+  width: 190px;
+  background-color: orange;
+  flex: 4;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.buy-btn:hover {
+  background-color: rgb(206, 134, 0);
+}
+
+.cart-btn {
+  background-color: transparent;
+  border: 1px solid orange;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.home-four {
+  background-color: rgb(255, 255, 256);
+  padding-top: 100px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.four-text-description {
+  width: 450px;
+  align-content: center;
+}
+
+.four-image {
+  background: url("/assets/img/Huge\ Global.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
   position: inherit;
   right: 0px;
   background-size: cover;

@@ -1,8 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
+  list-style: none;
+  font-family: "Mulish", sans-serif;
 }
 
 body {
@@ -132,18 +133,12 @@ input {
   /* box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4); */
 }
 
-.g-sign-up {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0 0 auto;
-  gap: 15px;
-  width: 505px;
+.btn-social-media {
+  width: 250px;
   height: 75px;
-  font-family: "Poppins";
-  font-size: 17px;
-  background-color: white;
-  border: none;
+  font-size: 15px;
   border-radius: 20px;
-  box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+  background-color: white;
+  align-self: center;
+  justify-self: center;
 }
