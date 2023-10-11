@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  /* font-family: "Plus Jakarta Sans", sans-serif; */
   box-sizing: border-box;
 }
 
 /* HEADER */
-header {
+/* header {
   width: 100%;
   position: fixed;
   top: 0;
   height: 76px;
   background-color: rgba(0, 0, 0, 0.326);
   z-index: 2;
-}
+} */
 
 .nav-wrapper {
   display: flex;
